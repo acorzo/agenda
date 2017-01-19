@@ -58,3 +58,5 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
+# Easily generate fake data: names, addresses, phone numbers, etc.
+gem 'faker', '~> 1.7', '>= 1.7.2'
