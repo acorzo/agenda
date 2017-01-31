@@ -40,6 +40,13 @@
       <%= address_fields.text_field :state %>
     </div>
   <% end %>
+  
+  <%= f.fields_for :phones do |phones_fields| %>
+      <div class="field">
+        <%= f.label :number %><br>
+        <%= phones_fields.text_field :number %>
+      </div>
+  <% end %>
 
   <div class="field">
     <%= f.label :observations %>
